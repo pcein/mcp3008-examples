@@ -7,6 +7,11 @@ implementation [stm32f30x-hal](https://crates.io/crates/stm32f30x-hal).
 You need an STM32F3Discovery (or compatible) board to run
 the code.
 
+Compiling code for embedded platforms requires specific versions of "nightly"
+Rust - code can break mysteriously when the nightly version is changed. Please
+refer [this post](http://pramode.in/2018/01/31/ti-launchpad-with-rust-new-io/) for
+the setup which I have used successfully.
+
 You can compile the code by running:
 
 ```
