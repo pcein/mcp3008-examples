@@ -1,6 +1,7 @@
 [[package]]
 name = "adc-mcp3008"
-version = "0.1.0"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "embedded-hal 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -168,7 +169,7 @@ dependencies = [
 name = "stm32f30x-hal-example"
 version = "0.1.0"
 dependencies = [
- "adc-mcp3008 0.1.0",
+ "adc-mcp3008 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "cortex-m 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "cortex-m-rt 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
  "nb 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -223,6 +224,7 @@ version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
+"checksum adc-mcp3008 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0fb54d9ad2882dd7da928c52fa564dc1b50f08631c621b258e1d27cfe856d4e3"
 "checksum aligned 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d1a92995cea48691c7c93e12597cca4d692bb3130d0a291c7141b9793c7829e7"
 "checksum bare-metal 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "aacbba24771a81cfe18f5aedd5bf3208ca8324ecdd9344ddb61f8d2a051a4574"
 "checksum cast 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "926013f2860c46252efceabb19f4a6b308197505082c609025aa6706c011d427"

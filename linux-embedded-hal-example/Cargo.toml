@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Pramode <mail@pramode.in>"]
 
 [dependencies]
-linux-embedded-hal = "0.1.0"
-adc-mcp3008 = { path = "../adc-mcp3008" }
+linux-embedded-hal = "0.1.1"
+adc-mcp3008 = "0.1.1"
 
